@@ -48,7 +48,7 @@ public class Iniciar extends javax.swing.JFrame {
         });
 
         jLabel1.setForeground(new java.awt.Color(116, 137, 216));
-        jLabel1.setIcon(new javax.swing.ImageIcon("C:\\Users\\20171148060029\\Pictures\\nitro gif.gif")); // NOI18N
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imgs/nitro gif.gif"))); // NOI18N
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
@@ -68,7 +68,7 @@ public class Iniciar extends javax.swing.JFrame {
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
                 .addGap(0, 0, Short.MAX_VALUE)
                 .addComponent(jButton1)
-                .addGap(28, 28, 28))
+                .addGap(22, 22, 22))
         );
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
