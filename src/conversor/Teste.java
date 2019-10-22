@@ -71,7 +71,8 @@ public class Teste extends JFrame {
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setResizable(false);
         setSize(new java.awt.Dimension(700, 232));
-
+        setLocationRelativeTo(null);
+        
         fechar.setText("Fechar");
         fechar.addActionListener(new ActionListener() {
             @Override
