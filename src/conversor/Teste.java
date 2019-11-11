@@ -305,7 +305,7 @@ public class Teste extends JFrame {
                 if (paraSeletorArea.getSelectedItem() == "Centímetros") {
                     jTextFieldAreaPara.setText(String.valueOf(Double.parseDouble(jTextFieldAreaDe.getText())));
                 } else if (paraSeletorArea.getSelectedItem() == "Metros") {
-                    jTextFieldAreaPara.setText(String.valueOf(Double.parseDouble(jTextFieldAreaDe.getText()) * 100));
+                    jTextFieldAreaPara.setText(String.valueOf(Double.parseDouble(jTextFieldAreaDe.getText()) / 100));
                 } else if (paraSeletorArea.getSelectedItem() == "Milímetros") {
                     jTextFieldAreaPara.setText(String.valueOf(Double.parseDouble(jTextFieldAreaDe.getText()) / 10));
                 }
